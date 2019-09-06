@@ -43,6 +43,8 @@ public WebDriver driver;
 		Thread.sleep(2000);
 		driver.close();
 		
+		es.flush();
+		
 		
 		
 	}
