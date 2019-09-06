@@ -39,7 +39,7 @@ public WebDriver driver;
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.id("btnLogin")).click();
-		logger.log(Status.PASS, "Passed the test");
+		logger.log(Status.FAIL, "failed the test");
 		Thread.sleep(2000);
 		driver.close();
 		
