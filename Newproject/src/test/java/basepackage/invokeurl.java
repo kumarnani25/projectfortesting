@@ -26,7 +26,7 @@ public WebDriver driver;
 	public void test2() throws InterruptedException
 	{
 	
-	ExtentHtmlReporter ht=new ExtentHtmlReporter("C:\\Users\\Naveen\\git\\projectfortesting\\Newproject\\Reports\\test.html");
+	ExtentHtmlReporter ht=new ExtentHtmlReporter(".\\Reports\\test8.html");
 	ExtentReports es=new ExtentReports();
 	es.attachReporter(ht);
 	ExtentTest logger;
